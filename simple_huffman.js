@@ -23,7 +23,7 @@ function createFrequencyTable(inputString){
 }
 
 /**
- * Return a Priority Queue data struct with the initial nodes 
+ * Return a Priority Queue (min heap) data struct with the initial nodes 
  * @param {*} freqTable 
  * @returns 
  */
@@ -40,8 +40,8 @@ function buildPriorityQueue(freqTable){
 }
 
 /**
- * Gets the 2 min frequency nodes from the minimum heap, create a new node with 
- * the summed value. Loop until the minimum heap is empty. Return the Huff tree
+ * Gets the 2 min frequency nodes from the priority queue, create a new node with 
+ * the summed value. Loop until the queue is empty. Return the Huff tree
  * @param {*} priorityQueue 
  * @returns  
  */
@@ -58,7 +58,7 @@ function buildHuffmanTree(priorityQueue){
 
 /**
  * Traverse the Huff tree: add 0 to the code when a left child is visited, add 1 
- * when a right child is visited. Returns a key - binary chars dict 
+ * when a right child is visited. Returns a {key : binary chars} dict 
  * @param {*} tree 
  * @returns 
  */
