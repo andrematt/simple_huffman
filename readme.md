@@ -6,7 +6,7 @@ Usage:
 git clone https://github.com/andrematt/simple_huffman.git  
 cd simple_huffman
 npm install  
-node my_huff.js  
+node simple_huffman.js  
 ```
 
 The program search in the standard printable ASCII for a character not used 
