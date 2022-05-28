@@ -194,7 +194,7 @@ function readFromFile(){
 function getEOF(initialMessage){
   let eof;
   console.log("Checking in printable standard ascii");
-  for(let i=32;i<127;i++){
+  for(let i=32;i<128;i++){
     if (initialMessage.indexOf(String.fromCharCode(i)) == -1){
       console.log("Found ascii char not in string: " + String.fromCharCode(i) + " at index: " + i);
       eof = String.fromCharCode(i);
@@ -224,7 +224,7 @@ function removeFiles(){
 let fileName = "input_files/dagon.txt" 
 //let fileName = "input_files/short_text.txt" 
 //let fileName = "input_files/more_symbols_testing.txt" 
-//let fileName = "input_files/printable_ascii.txt" 
+//let fileName = "input_files/printable_ascii_minus_delete.txt" 
 
 // read initial message from file
 try {  

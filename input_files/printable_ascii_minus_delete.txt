@@ -93,3 +93,4 @@ z
 |
 }
 ~
+the last printable character (delete) is not in the file: will be used as EOF
