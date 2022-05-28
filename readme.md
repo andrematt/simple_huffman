@@ -1,9 +1,11 @@
-*A simple implementation of the Huffman Encoding written in Node Js.*
+#A simple implementation of the Huffman Encoding written in Node Js.
 
-**Usage:**
+*Usage:*
+`
+git clone https://github.com/andrematt/simple_huffman.git
 npm install 
 node my_huff.js 
-
+`
 
 The program search in the standard printable ASCII for a character not used 
 in the input text to be used as EOF, therefore it will terminate without 
