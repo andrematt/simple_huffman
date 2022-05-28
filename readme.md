@@ -1,4 +1,4 @@
-**A simple implementation of the Huffman Encoding written in Node Js.**
+**A simple implementation of the Huffman Coding in Node Js.**
 
 Usage:
 
