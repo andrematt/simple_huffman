@@ -4,6 +4,7 @@ Usage:
 
 ```
 git clone https://github.com/andrematt/simple_huffman.git  
+cd simple_huffman
 npm install  
 node my_huff.js  
 ```
