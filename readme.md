@@ -2,9 +2,9 @@
 
 Usage:
 `
-git clone https://github.com/andrematt/simple_huffman.git \n
-npm install  \n
-node my_huff.js  \n
+git clone https://github.com/andrematt/simple_huffman.git\
+npm install\
+node my_huff.js\
 `
 
 The program search in the standard printable ASCII for a character not used 
